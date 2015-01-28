@@ -11,19 +11,20 @@
 //   ==> ALSO TRY ALL AVAILABLE LANGUAGE OPTIONS
 
 // Languages
-// en English
-// pl Polish
-// fr French
-// de German
-// es Spanish
-// ru Russian
-// it Italian
-// pt Portuguese
-// fi Finnish
-// an Aragonese
-// nl Dutch
-// ca Catalan
-// eu Basque-Euskera
+// en    English
+// pl    Polish
+// fr    French
+// de    German
+// es    Spanish
+// ru    Russian
+// it    Italian
+// pt    Portuguese
+// pt-br Portuguese (Brazil)
+// fi    Finnish
+// an    Aragonese
+// nl    Dutch
+// ca    Catalan
+// eu    Basque-Euskera
 
 #ifndef LANGUAGE_INCLUDE
   // pick your language from the list above
@@ -41,6 +42,9 @@
 #elif MB(3DRAG)
   #define MACHINE_NAME "3Drag"
   #define FIRMWARE_URL "http://3dprint.elettronicain.it/"
+#elif MB(K8200)
+  #define MACHINE_NAME "K8200"
+  #define FIRMWARE_URL "https://github.com/MarlinFirmware/Marlin"
 #elif MB(5DPRINT)
   #define MACHINE_NAME "Makibox"
   #define FIRMWARE_URL "https://github.com/MarlinFirmware/Marlin"
